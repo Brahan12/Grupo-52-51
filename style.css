@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+.container-xl{
+    padding: 0 !important;
+}
+
+/* Css Navbar */
+
+.navbar{
+    font-family: 'Comic Neue', cursive !important;
+}
+
+.styleAncla{
+    font-size: 1.3em !important;
+}
+
+.dropdown-menu{
+    border: 2px solid white !important;
+}
+
+.dropdown-item:hover{
+    color: black !important;
+}
+
+/* Css Card */
+.card{
+    padding: 0 !important;
+}
+
+.botonCard{
+    width: 100% !important;
+}
+
+.marginCard{
+    margin-top: 4em !important;
+}
+
+/* Css maedia query */
+
+@media (max-width: 991px) { 
+    .navbar-toggler{
+        border: 2px solid white !important;
+    }
+}
+
+@media (max-width: 425px) { 
+    .carousel, .carousel-inner, .altoImg{
+        height: 50vh !important;
+    }
+
+    .card img{
+        height: 50vh !important;
+    }
+}
